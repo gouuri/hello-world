@@ -12,7 +12,7 @@ pipeline {
     }
     stage('mvn Build') {
       steps {
-        sh "cd /var/lib/jenkins/workspace/dec1"  
+        sh "cd /var/lib/jenkins/workspace/script-pipeline"  
         sh "mvn clean install"
        }
     }
